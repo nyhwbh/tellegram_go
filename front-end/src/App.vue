@@ -1,9 +1,9 @@
 <template>
-  <div id="app">
+  <div>
     <div class="log_in" v-show="loggedIn">
       <LogInPage></LogInPage>
     </div>
-    <div class="chatting_app">
+    <div class="chatting_app" v-show="!loggedIn">
       <ChattingApp></ChattingApp>
     </div>
   </div>
@@ -28,5 +28,12 @@ export default {
 </script>
 
 <style>
-
+.log_in{
+  display: block;
+  z-index: 1;
+}
+.chattingApp{
+  display: block;
+  z-index: 0;
+}
 </style>
