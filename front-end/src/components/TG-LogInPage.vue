@@ -1,11 +1,11 @@
 <template>
-  <div class="logInBox">
+  <form class="logInBox">
     <div class="logInIDPW">
       <input type="text">
       <input type="password">
       <input type="button">
     </div>
-  </div>
+  </form>
 </template>
 
 <script>
