@@ -66,7 +66,7 @@ export default {
     display: flex;
     flex-direction: column;
     width: 470px;
-    height: 600px;
+    height: 580px;
 }
 
 .menu_wrap{
