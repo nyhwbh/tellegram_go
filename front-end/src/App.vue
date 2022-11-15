@@ -1,7 +1,13 @@
 <template>
-  <div>
-    <LogInPage v-show="loggedIn"></LogInPage>
-    <ChattingApp v-show="!loggedIn"></ChattingApp>
+  <div class="eoullim">
+    <div class="eoullim_login">
+      <LogInPage v-show="loggedIn"></LogInPage>
+    </div>
+    <div class="eoullim_todo"></div>
+    <div clclass="eoullim_calendar"></div>
+    <div class="eoullim_chatting">  
+      <ChattingApp v-show="!loggedIn"></ChattingApp>
+    </div>
   </div>
 </template>
 

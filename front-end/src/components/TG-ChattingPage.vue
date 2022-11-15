@@ -49,7 +49,7 @@ export default {
   display: flex;
   flex-direction: row;
   margin: 0;
-  width: 100vw;
+  width: 50vw;
   height: 100vh;
 }
 
@@ -65,9 +65,10 @@ export default {
   flex-direction: row;
   padding: 10px 0px;
 }
-
+/* 
 .chatting_menu:nth-child(1) {flex-grow: 0;}
 .chatting_menu:nth-child(2) {flex-grow: 1;}
+ */
 
 .chatting_menu_search{
   color: gray;
@@ -89,9 +90,18 @@ export default {
   width: 100%;
 }
 
+.chatting_list_friends > ul{
+  list-style: none;
+  padding-left: 10px;
+  color: white;
+}
+
 .chatting_room{
   background-color: #0a1416;
   width: 65%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 
 .chatting_room_none{
